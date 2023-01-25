@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'aquaticoregular';
+    src: url('../fonts/aquatico-regular-webfont.woff2') format('woff2'),
+         url('../fonts/aquatico-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+  background-color: #3c3d41;
+  text-align: center;
+  font-size: 15px;
+  padding: 35px;
+  box-sizing: border-box;
+  color: white;
+  position: absolute;
+}
+
+#footer_logo a{
+  font-family: 'Abril Fatface', cursive;
+  text-decoration: none;
+  color: white;
+  font-size: 2.5rem;
+  padding: 10px 5%;
+  float: left;
+}
+
+#copyright{
+  clear: both;
+  opacity: 0.6;
+  font-family: 'Montserrat', sans-serif;
+} 
+
+#contact_links {
+  float: right;
+  padding: 0 5%;
+  text-align: left;
+  font-size: 16px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#contact_links a{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+#contact_links a:hover{
+  color: #afafaf;
+}
+
+#contact_links ul{
+  list-style: none;
+  padding: 0;
+}
+
+#contact_links li{
+  margin: 12px 0;
+}
+
+.icon {
+  padding: 0 12px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.icon#instagram{
+  background-image: url("../assets/instagram_icon.png");
+}
+
+.icon#email{
+  background-image: url("../assets/email_icon.png");
+}
+
+@media screen and (max-width: 560px) {
+  #footer_logo a{
+    font-size: 25px;
+    float: none;
+  }
+  #contact_links {
+    float: none;
+    display: block;
+    padding: 20px;
+    text-align: center;
+  }
+}

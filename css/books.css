@@ -1,0 +1,52 @@
+.book_card {
+	background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: 15px auto;
+	padding: 5px 5px 40px;
+	border: 1px solid #3c3d41;
+	transition: transform .3s;
+	
+}
+
+.book_card:hover {
+	background-color: #d0d0d0;
+	cursor: pointer; 
+	transform: scale(1.01);
+}
+
+.book_info {
+	text-align: left;
+}
+
+.book_time {
+    float: left;
+    background-color: #eaeaea;
+    height: inherit;
+    border-radius: 5px;
+	text-align: right;
+	text-underline-position: under;
+	margin-right: 10px;
+}
+
+.book_location {
+	float: left;
+    padding: 5px !important;
+    margin-top: 5px;
+	background-color: #eaeaea;
+    width: 100%;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.icon#location {
+    background-image: url(../assets/location_icon.png);
+}
+
+
+@media screen and (max-width: 770px) {
+	.book_card {
+		border-radius: 5px;
+		padding: 5px 5px 35px;
+	}
+}
